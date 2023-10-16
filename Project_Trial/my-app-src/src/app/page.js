@@ -8,6 +8,8 @@ export default function Home() {
       <h1>Travel Bucketlist : </h1>
           <br/>
           <form>
+
+            <p>ALL THE INPUT WILL BE STORED IN GOOGLE SHEET AND THEN WILL BE RETRIEVED FOR THE ABOUT PAGE</p>
             <div className='p-10'>
             <label>Place Name : </label>
             <input className='text-black'></input>
