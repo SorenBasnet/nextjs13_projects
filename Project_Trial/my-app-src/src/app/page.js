@@ -22,12 +22,26 @@ export default async function Home() {
   // const data = await getData()
   return (
     // <main>
+
+    <main>
+
+      <div style={{
+        zIndex: -1, 
+        position: "fixed", 
+        width: "100vw", 
+        height: "100vh"
+      }}>
+
       <Image
         src="/profile.jpg"
         alt="Picture of the author"
-      width={500}
-      height={500}
+        layout="fill"
+        objectFit='cover'
       />
+      </div>
+
+      <h1 className='text-center'>HELLO WORLD!</h1>
+      </main>
     //   <h1>Travel Bucketlist : </h1>
     //       <br/>
     //       <form>
