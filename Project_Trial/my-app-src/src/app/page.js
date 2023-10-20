@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Chart from 'chart.js/auto';
+import BarChart from './component/BarChart';
+
 
 // async function getData(){
 //   const res = await fetch('http://numbersapi.com/#42') 
@@ -41,6 +44,40 @@ export default async function Home() {
       </div>
 
       <h1 className='text-center'>HELLO WORLD!</h1>
+
+      <menu>
+        <table class="table-auto">
+          <tbody>
+          <tr>
+            <th>Dashboard</th>
+            <th>Writings</th>
+            <th>Camera</th>
+            <th>Me</th>
+          </tr>
+          </tbody>
+        </table>
+      
+
+      </menu>
+      <div class="backdrop-blur-sm bg-black/20 ...">        
+      <p>About me</p>
+      <Image
+      src="/road.jpg"
+      width={500}
+      height={10}
+
+      />
+      <div class="m-10"> 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Proin vel sem ut arcu sodales sollicitudin in quis dolor. In hac habitasse platea dictumst. Nullam ut tempus magna. Morbi sit amet ipsum pharetra, vulputate ligula accumsan, finibus turpis. Nunc eget mi in erat commodo tempus at eu lectus. Duis nec varius lacus. Nam dictum hendrerit neque non convallis. Nulla facilisi. Quisque nisl metus, iaculis non elit at, porta semper arcu. Fusce pulvinar mauris eget magna pharetra, eu porttitor diam ornare. Sed porta leo nec ultricies mattis. Ut eget mauris at lorem tempor cursus. Quisque ac nunc porta, pretium turpis ac, maximus odio. Aliquam sit amet est arcu.
+      </div>
+
+      
+
+</div>
+
+<div> 
+  <BarChart />
+</div>
       </main>
     //   <h1>Travel Bucketlist : </h1>
     //       <br/>
