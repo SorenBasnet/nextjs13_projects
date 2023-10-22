@@ -49,8 +49,8 @@ export default async function Home() {
           <tbody>
           <tr>
             <th>Dashboard</th>
-            <th>Writings</th>
-            <th>Camera</th>
+            <th><Link href="/pages/blog">Writings</Link></th>
+            <th><Link href="/pages/visualmedia">Camera</Link></th>
             <th>Me</th>
           </tr>
           </tbody>
